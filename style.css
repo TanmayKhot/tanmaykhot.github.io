@@ -21,6 +21,21 @@
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+:root.light {
+  --bg: #f0f4f8;
+  --bg2: #e8eef5;
+  --bg3: #dde5ef;
+  --surface: #cdd8e8;
+  --surface2: #bfcfdf;
+  --border: rgba(0,0,0,0.1);
+  --accent: #0a66c2;
+  --accent2: #0558a8;
+  --accent-glow: rgba(10, 102, 194, 0.15);
+  --text: #0f1e2e;
+  --text-muted: #374f68;
+  --text-dim: #5a7a96;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -128,6 +143,11 @@ a { color: inherit; text-decoration: none; }
   inset: 0;
   background: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(10, 102, 194, 0.12) 0%, transparent 70%);
   pointer-events: none;
+  transition: background var(--transition);
+}
+
+:root.light .hero-bg {
+  background: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(10, 102, 194, 0.08) 0%, transparent 70%);
 }
 
 #hero::before {
@@ -155,6 +175,11 @@ a { color: inherit; text-decoration: none; }
   line-height: 1;
   margin-bottom: 2.5rem;
   color: #ffffff;
+  transition: color var(--transition);
+}
+
+:root.light .hero-name {
+  color: var(--text);
 }
 
 .hero-actions {
@@ -234,6 +259,20 @@ a { color: inherit; text-decoration: none; }
 
 /* ── Projects ── */
 #projects { background: var(--bg2); }
+
+.projects-subsection + .projects-subsection {
+  margin-top: 3.5rem;
+}
+
+.subsection-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
 
 .projects-grid {
   display: grid;
@@ -508,6 +547,34 @@ footer a {
 }
 
 footer a:hover { color: var(--accent2); }
+
+/* ── Theme Toggle ── */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--accent);
+  background: var(--surface2);
+}
+
+.theme-toggle .icon-sun  { display: none; }
+.theme-toggle .icon-moon { display: block; }
+
+:root.light .theme-toggle .icon-sun  { display: block; }
+:root.light .theme-toggle .icon-moon { display: none; }
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
