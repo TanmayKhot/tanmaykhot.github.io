@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanmay Khot — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Nav -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">TK</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="https://github.com/TanmayKhot" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">Tanmay Khot</h1>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">Projects</a>
+        <a href="https://github.com/TanmayKhot" target="_blank" rel="noopener" class="btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/tanmay-khot/" target="_blank" rel="noopener" class="btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <p class="section-sub">Recent to older — across AI, data, systems, and web.</p>
+
+      <div class="projects-grid">
+
+        <!-- JobWatch -->
+        <article class="project-card featured">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/JobWatch" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">AI · DevOps · MCP · Finance</div>
+          <h3><a href="https://github.com/TanmayKhot/JobWatch" target="_blank" rel="noopener">JobWatch</a></h3>
+          <ul class="bullets">
+            <li>Claude diagnoses financial pipeline failures in real-time, delivering structured root cause + fix to Slack — replacing manual triage</li>
+            <li>Detects both explicit errors and silent failures across stock data ingestion from Yahoo Finance into PostgreSQL</li>
+            <li>MCP server exposes database tools for evidence gathering; Prometheus metrics for dashboarding</li>
+            <li>Production-ready at ~$0.005/incident — 10× cheaper than on-call alerting alternatives</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Claude API</span>
+            <span class="badge">MCP</span>
+            <span class="badge">Agentic AI</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Prometheus</span>
+            <span class="badge">Incident Management</span>
+            <span class="badge">Slack API</span>
+            <span class="badge">CI/CD Monitoring</span>
+          </div>
+        </article>
+
+        <!-- MemoryChat -->
+        <article class="project-card featured">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/memorychat" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">AI · Multi-Agent · Memory</div>
+          <h3><a href="https://github.com/TanmayKhot/memorychat" target="_blank" rel="noopener">MemoryChat</a></h3>
+          <ul class="bullets">
+            <li>6-agent architecture (Coordinator, Privacy Guardian, Retrieval, Conversation, Memory Manager, Analyst) maintains context across sessions</li>
+            <li>Semantic search over past interactions surfaces relevant memories per query — no hardcoded recall logic</li>
+            <li>Three privacy modes (Normal, Incognito, Pause) give users granular control over what is stored</li>
+            <li>Backed by Qdrant vector DB + Mem0 for production-grade memory management via REST API</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Multi-Agent</span>
+            <span class="badge">Qdrant</span>
+            <span class="badge">Mem0</span>
+            <span class="badge">SQLite</span>
+            <span class="badge">REST API</span>
+            <span class="badge">Semantic Search</span>
+          </div>
+        </article>
+
+        <!-- OpenPoke -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/openpoke" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">AI · Multi-Agent · Open Source</div>
+          <h3><a href="https://github.com/TanmayKhot/openpoke" target="_blank" rel="noopener">OpenPoke</a></h3>
+          <ul class="bullets">
+            <li>Contributed memory optimization achieving 60–80% reduction in API token usage via LRU caching and smart context selection</li>
+            <li>Built incognito chat mode with dual-layer memory — ephemeral sessions that auto-clear, no data leakage</li>
+            <li>Shipped full Docker deployment stack with 30+ tests covering health, security, and data persistence</li>
+            <li>Multi-agent FastAPI backend with Gmail tooling via Composio; deployable to Railway, AWS, DigitalOcean</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">FastAPI</span>
+            <span class="badge">Next.js</span>
+            <span class="badge">Multi-Agent</span>
+            <span class="badge">OpenRouter</span>
+            <span class="badge">Composio</span>
+            <span class="badge">Docker</span>
+          </div>
+        </article>
+
+        <!-- GitLab Hackathon -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"/></svg>
+            </div>
+            <a href="https://contributors.gitlab.com/users/tanmaykhot" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Open Source · GitLab · Hackathon</div>
+          <h3><a href="https://contributors.gitlab.com/users/tanmaykhot" target="_blank" rel="noopener">GitLab Hackathon — Open Source</a></h3>
+          <ul class="bullets">
+            <li>Active open-source contributor to GitLab through the GitLab Hackathon program</li>
+            <li>Contributed fixes, improvements, and features directly to the GitLab codebase</li>
+            <li>Recognized on the official GitLab contributors leaderboard</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Open Source</span>
+            <span class="badge">GitLab</span>
+            <span class="badge">Hackathon</span>
+          </div>
+        </article>
+
+        <!-- Splendor -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/splendor" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Full-Stack · Real-Time · Game</div>
+          <h3><a href="https://github.com/TanmayKhot/splendor" target="_blank" rel="noopener">Splendor</a></h3>
+          <ul class="bullets">
+            <li>Full browser implementation of Splendor — local multiplayer, real-time online via WebSocket, and vs-AI modes</li>
+            <li>Complete rule enforcement: gem acquisition, card reserving/purchasing, noble tile claiming, turn validation</li>
+            <li>189 tests across 8 files — game logic, Zustand state management, and server correctness</li>
+            <li>React 18 + TypeScript frontend, Express + Socket.io backend, Vite build pipeline</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">TypeScript</span>
+            <span class="badge">React 18</span>
+            <span class="badge">Zustand</span>
+            <span class="badge">WebSocket</span>
+            <span class="badge">Express</span>
+            <span class="badge">Socket.io</span>
+            <span class="badge">Vite</span>
+          </div>
+        </article>
+
+        <!-- LLM Eval -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/hard-wordle-eval" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">LLM · Evaluation · Research</div>
+          <h3><a href="https://github.com/TanmayKhot/hard-wordle-eval" target="_blank" rel="noopener">Wordle LLM Evaluation Suite</a></h3>
+          <ul class="bullets">
+            <li>Two adversarial environments to benchmark LLM reasoning and constraint-following under pressure</li>
+            <li>Hard mode enforces strict letter inclusion; Hurdle variant tests multi-step deductive logic from green/yellow feedback</li>
+            <li>Multi-turn game format with structured XML output parsing — tests instruction-following at inference time</li>
+            <li>4-axis scoring: exact match, partial credit, turn efficiency, format compliance</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">LLM Eval</span>
+            <span class="badge">TextArena</span>
+            <span class="badge">Reasoning</span>
+            <span class="badge">Benchmarking</span>
+          </div>
+        </article>
+
+        <!-- Data Engineering for LLMs -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Data-engineering-for-LLMs" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Data Engineering · LLM · Stanford CS336</div>
+          <h3><a href="https://github.com/TanmayKhot/Data-engineering-for-LLMs" target="_blank" rel="noopener">Data Engineering for LLMs</a></h3>
+          <ul class="bullets">
+            <li>Built a production-grade pre-training data pipeline from scratch as part of Stanford CS336</li>
+            <li>Converts raw Common Crawl HTML to clean text at web scale</li>
+            <li>Multi-stage filtering pipeline: harmful content removal, PII scrubbing, quality heuristics</li>
+            <li>Corpus deduplication pass to reduce redundancy before feeding into LM training loop</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Common Crawl</span>
+            <span class="badge">Data Filtering</span>
+            <span class="badge">Deduplication</span>
+            <span class="badge">PII Removal</span>
+            <span class="badge">LLM Pre-training</span>
+          </div>
+        </article>
+
+        <!-- PixVault -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/pixvault" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Go · Backend · MVC</div>
+          <h3><a href="https://github.com/TanmayKhot/pixvault" target="_blank" rel="noopener">PixVault</a></h3>
+          <ul class="bullets">
+            <li>Google Photos-style gallery app built end-to-end in Go — no framework shortcuts</li>
+            <li>Hardened auth: bcrypt hashing, CSRF protection, SMTP-based password reset</li>
+            <li>MVC architecture with multi-format image upload (JPG/PNG/GIF), gallery CRUD, per-gallery privacy toggles</li>
+            <li>Fully containerized with Docker Compose; deployment-ready on DigitalOcean Ubuntu</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Go</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Tailwind CSS</span>
+            <span class="badge">Docker</span>
+            <span class="badge">MVC</span>
+            <span class="badge">bcrypt</span>
+            <span class="badge">SMTP</span>
+          </div>
+        </article>
+
+        <!-- Air Quality Analytics -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/air-quality-analytics" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Data · Analytics · Full-Stack</div>
+          <h3><a href="https://github.com/TanmayKhot/air-quality-analytics" target="_blank" rel="noopener">Air Quality Analytics</a></h3>
+          <ul class="bullets">
+            <li>Full-stack analytics dashboard covering 10 US cities — daily AQI, monthly trends, city comparisons, pollutant breakdowns</li>
+            <li>Apache Spark handles large-scale data processing; OpenAQ API drives real-time ingestion</li>
+            <li>HTMX-powered dynamic updates with Chart.js visualizations — no full-page reloads</li>
+            <li>Tracks 7 pollutants (PM2.5, PM10, O3, NO2, SO2, CO, BC) via Flask + PostgreSQL + SQLAlchemy</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Flask</span>
+            <span class="badge">Apache Spark</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">HTMX</span>
+            <span class="badge">Chart.js</span>
+            <span class="badge">OpenAQ API</span>
+          </div>
+        </article>
+
+        <!-- Pagemark -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Pagemark" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">JavaScript · Browser Extension · Chrome</div>
+          <h3><a href="https://github.com/TanmayKhot/Pagemark" target="_blank" rel="noopener">Pagemark</a></h3>
+          <ul class="bullets">
+            <li>Chrome extension that saves and restores exact scroll positions on any webpage</li>
+            <li>Visual markers rendered directly on the native scrollbar — zero UI clutter</li>
+            <li>Keyboard shortcut (Ctrl+Shift+M) + floating button; fully local via Chrome Storage API — no tracking, no cloud</li>
+            <li>Built with Manifest V3 architecture; background service worker handles lifecycle and persistence</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">JavaScript</span>
+            <span class="badge">Chrome Extension</span>
+            <span class="badge">Manifest V3</span>
+            <span class="badge">Chrome Storage API</span>
+          </div>
+        </article>
+
+        <!-- Grocery Store DMS -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Grocery-Store-Data-Management-System" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Data Engineering · ETL · Spark</div>
+          <h3><a href="https://github.com/TanmayKhot/Grocery-Store-Data-Management-System" target="_blank" rel="noopener">Grocery Store Data Management System</a></h3>
+          <ul class="bullets">
+            <li>ETL pipeline processing millions of transactional records using Apache Spark</li>
+            <li>End-to-end data management: ingestion, transformation, and storage at scale</li>
+            <li>Designed for high-throughput retail data with fault-tolerant pipeline architecture</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Apache Spark</span>
+            <span class="badge">ETL</span>
+            <span class="badge">Big Data</span>
+          </div>
+        </article>
+
+        <!-- COVID Dashboard -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Coronavirus-Observatory-VIsualization-Dashboard" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">NLP · Vector Search · Analytics</div>
+          <h3><a href="https://github.com/TanmayKhot/Coronavirus-Observatory-VIsualization-Dashboard" target="_blank" rel="noopener">Coronavirus Observatory &amp; Visualization Dashboard</a></h3>
+          <ul class="bullets">
+            <li>Semantic search over COVID-19 research literature — natural language queries instead of keyword matching</li>
+            <li>Dense embeddings via sentence transformers stored in Milvus; metadata (title, abstract, authors) in PostgreSQL</li>
+            <li>Scales to millions of vectors: pipeline processes ~1M rows/hour through embedding generation + vector insertion</li>
+            <li>Streamlit UI with Docker-based Milvus + Postgres setup; CLI and API inference modes</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Milvus</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">Sentence Transformers</span>
+            <span class="badge">Semantic Search</span>
+            <span class="badge">Streamlit</span>
+            <span class="badge">Docker</span>
+          </div>
+        </article>
+
+        <!-- Scene Text Editing -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Scene-Text-Editing" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Deep Learning · Computer Vision · NLP</div>
+          <h3><a href="https://github.com/TanmayKhot/Scene-Text-Editing" target="_blank" rel="noopener">Scene Text Editing</a></h3>
+          <ul class="bullets">
+            <li>Undergrad capstone extending STEFANN (CVPR 2020) — a deep learning network for editing text in natural scene images</li>
+            <li>Identified key limitation: original model only worked on solid-color text</li>
+            <li>Introduced image disentanglement to separate structure and colour features, enabling style transfer on textured characters</li>
+            <li>Colour encoding of original character transferred to generated output — preserving visual fidelity</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">Deep Learning</span>
+            <span class="badge">Image Disentanglement</span>
+            <span class="badge">Style Transfer</span>
+            <span class="badge">Computer Vision</span>
+            <span class="badge">CVPR 2020</span>
+          </div>
+        </article>
+
+        <!-- Reverse Image Search -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Reverse-Image-Search" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">Computer Vision · Similarity Search · AWS</div>
+          <h3><a href="https://github.com/TanmayKhot/Reverse-Image-Search" target="_blank" rel="noopener">Reverse Image Search</a></h3>
+          <ul class="bullets">
+            <li>Face-based reverse image search over 13,000+ LFW images — query by face, retrieve matches</li>
+            <li>Baseline: ResNet50 embeddings; improved: FaceNet (128-dim) with superior face representation</li>
+            <li>OpenSearch kNN with cosine similarity for fast, scalable retrieval</li>
+            <li>Deployed on AWS EC2 with Deep Learning AMI; embeddings persisted to S3</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">ResNet50</span>
+            <span class="badge">FaceNet</span>
+            <span class="badge">OpenSearch</span>
+            <span class="badge">kNN</span>
+            <span class="badge">AWS EC2</span>
+          </div>
+        </article>
+
+        <!-- Adversarial Attacks Visualizer -->
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <a href="https://github.com/TanmayKhot/Visualizer-for-Adversarial-Attacks" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="project-label">ML Security · PyTorch · Visualization</div>
+          <h3><a href="https://github.com/TanmayKhot/Visualizer-for-Adversarial-Attacks" target="_blank" rel="noopener">Visualizer for Adversarial Attacks</a></h3>
+          <ul class="bullets">
+            <li>Interactive tool to probe 6 SOTA vision models (ResNet101, VGG16, GoogLeNet, DenseNet, InceptionNet, AlexNet) against adversarial inputs</li>
+            <li>Supports 11 attack types from IBM's ART library — FGSM, PGD, DeepFool, Carlini L2, ZOO, UniversalPerturbation, and more</li>
+            <li>Side-by-side pre/post-attack classification comparison reveals model vulnerability at a glance</li>
+            <li>Upload any image via Streamlit UI — no ML expertise required to run experiments</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="badge">Python</span>
+            <span class="badge">PyTorch</span>
+            <span class="badge">ART (IBM)</span>
+            <span class="badge">Streamlit</span>
+            <span class="badge">Adversarial ML</span>
+            <span class="badge">Computer Vision</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-label">Skills</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-pills">
+            <span>Python</span><span>Go</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>AI / ML</h4>
+          <div class="skill-pills">
+            <span>Claude API</span><span>Multi-Agent Systems</span><span>LLM Evaluation</span><span>Semantic Search</span><span>Qdrant</span><span>Mem0</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Data Engineering</h4>
+          <div class="skill-pills">
+            <span>Apache Spark</span><span>PostgreSQL</span><span>SQLite</span><span>ETL Pipelines</span><span>SQLAlchemy</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Backend</h4>
+          <div class="skill-pills">
+            <span>Flask</span><span>Express</span><span>REST APIs</span><span>WebSocket</span><span>MCP Server</span><span>MVC</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <div class="skill-pills">
+            <span>React 18</span><span>Zustand</span><span>Vite</span><span>HTMX</span><span>Tailwind CSS</span><span>Chart.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Infrastructure</h4>
+          <div class="skill-pills">
+            <span>Docker</span><span>DigitalOcean</span><span>Prometheus</span><span>Chrome Extensions (MV3)</span><span>bcrypt / CSRF</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-card">
+        <div class="section-label">Contact</div>
+        <h2>Let's connect</h2>
+        <p>Open to new opportunities, interesting problems, and good conversations about AI systems and engineering.</p>
+        <div class="contact-links">
+          <a href="https://github.com/TanmayKhot" target="_blank" rel="noopener" class="contact-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/tanmay-khot/" target="_blank" rel="noopener" class="contact-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Tanmay Khot · <a href="https://github.com/TanmayKhot" target="_blank" rel="noopener">github.com/TanmayKhot</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
