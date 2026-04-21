@@ -548,6 +548,258 @@ footer a {
 
 footer a:hover { color: var(--accent2); }
 
+/* ── Experience ── */
+#experience { background: var(--bg2); }
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.exp-card {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 2rem;
+  transition: all var(--transition);
+}
+
+.exp-card:hover {
+  border-color: rgba(10, 102, 194, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.exp-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.exp-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(10, 102, 194, 0.12);
+  border: 1px solid rgba(10, 102, 194, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent2);
+  flex-shrink: 0;
+}
+
+.exp-meta { flex: 1; }
+
+.exp-company {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin-bottom: 0.2rem;
+}
+
+.exp-location {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  font-family: var(--mono);
+}
+
+.exp-dates {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--accent2);
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+
+.exp-roles {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.exp-role { padding: 1rem 0 0.25rem; }
+
+.exp-role + .exp-role {
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.exp-role-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.exp-role-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.exp-role-dates {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent2);
+  white-space: nowrap;
+}
+
+.exp-bullets {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.exp-bullets li {
+  font-size: 0.855rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.exp-bullets li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--accent2);
+  font-weight: 600;
+}
+
+.exp-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* ── Education ── */
+#education { background: var(--bg); }
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.edu-card {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 2rem;
+  transition: all var(--transition);
+}
+
+.edu-card:hover {
+  border-color: rgba(10, 102, 194, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.edu-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.edu-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(10, 102, 194, 0.12);
+  border: 1px solid rgba(10, 102, 194, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent2);
+  flex-shrink: 0;
+}
+
+.edu-meta {
+  flex: 1;
+}
+
+.edu-school {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin-bottom: 0.2rem;
+}
+
+.edu-location {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  font-family: var(--mono);
+}
+
+.edu-dates {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--accent2);
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+
+.edu-degree {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.edu-gpa {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  padding: 0.18rem 0.55rem;
+  background: rgba(10, 102, 194, 0.1);
+  border: 1px solid rgba(10, 102, 194, 0.25);
+  border-radius: 5px;
+  color: var(--accent2);
+}
+
+.edu-highlights {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.edu-highlights li {
+  font-size: 0.855rem;
+  color: var(--text-muted);
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.edu-highlights li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--accent2);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .edu-header { flex-wrap: wrap; }
+  .edu-dates { width: 100%; padding-top: 0; }
+}
+
 /* ── Theme Toggle ── */
 .theme-toggle {
   display: flex;
