@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -73,11 +73,7 @@
             </div>
             <div class="project-label">AI · DevOps · MCP</div>
             <h3><a href="https://github.com/TanmayKhot/JobWatch" target="_blank" rel="noopener">JobWatch — an AI-Ops on-caller for a daily data pipeline</a></h3>
-            <ul class="bullets">
-              <li>AI-powered incident response system — Claude diagnoses financial pipeline failures in real-time and delivers structured root cause analysis with fix recommendations to Slack</li>
-              <li>Detects both explicit errors and silent failures across stock data ingestion from Yahoo Finance into PostgreSQL</li>
-              <li>MCP server exposes database tools for AI evidence gathering; Prometheus metrics for dashboarding</li>
-            </ul>
+            <p class="project-overview">An AI-powered incident response system that uses Claude to diagnose financial pipeline failures in real-time and deliver structured root cause analysis with fix recommendations to Slack. An MCP server connects Claude directly to the database for evidence gathering, with Prometheus handling metrics and dashboarding.</p>
             <div class="tech-stack">
               <span class="badge">Python</span>
               <span class="badge">Claude API</span>
@@ -101,12 +97,7 @@
             </div>
             <div class="project-label">AI · Automation</div>
             <h3><a href="https://github.com/TanmayKhot/ai-digest" target="_blank" rel="noopener">AI Digest</a></h3>
-            <ul class="bullets">
-              <li>Daily AI news pipeline that fetches top posts from Hacker News and curated subreddits, ranks them for AI relevance, and delivers a styled HTML email digest</li>
-              <li>Claude Haiku summarizes each story with a 3–5 bullet article breakdown and a separate comment thread summary; summaries run in parallel via AsyncAnthropic</li>
-              <li>A second LLM pass generates a TL;DR across all 10 stories at the top of each digest</li>
-              <li>SQLite-based deduplication ensures no story is sent twice; topics and subreddits are fully configurable via TOML</li>
-            </ul>
+            <p class="project-overview">A daily pipeline that fetches top AI stories from Hacker News and Reddit, ranks them for relevance, and delivers a curated HTML email digest. Claude Haiku summarizes each story in parallel — article breakdown plus discussion thread — with a TL;DR across all stories at the top.</p>
             <div class="tech-stack">
               <span class="badge">Python</span>
               <span class="badge">Claude API</span>
@@ -130,12 +121,7 @@
             </div>
             <div class="project-label">Full-Stack · Real-Time · AI Research</div>
             <h3><a href="https://github.com/TanmayKhot/splendor" target="_blank" rel="noopener">Splendor — LLM Reasoning Evaluation Metric</a></h3>
-            <ul class="bullets">
-              <li>Full browser implementation of the Splendor board game — local multiplayer, real-time online via WebSocket, and vs-AI modes</li>
-              <li>Complete rule enforcement: gem acquisition, card reserving/purchasing, noble tile claiming, and turn validation</li>
-              <li>React 18 + TypeScript frontend, Express + Socket.io backend, Vite build pipeline</li>
-              <li>189 tests across 8 files covering game logic, Zustand state management, and server correctness</li>
-            </ul>
+            <p class="project-overview">A full browser implementation of the Splendor board game supporting local multiplayer, real-time online play via WebSocket, and vs-AI modes with complete rule enforcement. Being used as an LLM reasoning benchmark, with 189 tests covering game logic, state management, and server correctness.</p>
             <div class="tech-stack">
               <span class="badge">TypeScript</span>
               <span class="badge">React 18</span>
@@ -168,11 +154,7 @@
           </div>
           <div class="project-label">Open Source · GitLab · Hackathon</div>
           <h3><a href="https://contributors.gitlab.com/users/tanmaykhot" target="_blank" rel="noopener">GitLab Hackathon — Open Source</a></h3>
-          <ul class="bullets">
-            <li>Active open-source contributor to GitLab through the GitLab Hackathon program</li>
-            <li>Contributed fixes, improvements, and features directly to the GitLab codebase</li>
-            <li>Recognized on the official GitLab contributors leaderboard</li>
-          </ul>
+          <p class="project-overview">Active open-source contributor to GitLab through the GitLab Hackathon program, contributing fixes, improvements, and features directly to the codebase. Recognized on the official GitLab contributors leaderboard.</p>
           <div class="tech-stack">
             <span class="badge">Open Source</span>
             <span class="badge">GitLab</span>
@@ -192,12 +174,7 @@
           </div>
           <div class="project-label">AI · Local LLM · Hackathon</div>
           <h3><a href="https://github.com/TanmayKhot/dietAI-hackday-llama-cpp" target="_blank" rel="noopener">DietAI — Local Llama Hackathon</a></h3>
-          <ul class="bullets">
-            <li>Won 3rd place among 20 teams at a 3-hour hackathon hosted by the AI x LA community in Santa Monica, LA</li>
-            <li>Privacy-first AI health agent powered by a local Qwen 2.5 7B model via llama.cpp — all medical data stays on-device with no cloud required</li>
-            <li>Analyzes on-device medical documents (PDFs/text) to provide personalized diet and exercise recommendations</li>
-            <li>Persistent smart memory: remembers allergies, conditions, and preferences across sessions for contextual guidance</li>
-          </ul>
+          <p class="project-overview">A privacy-first AI health agent that runs entirely on-device using a local Qwen 2.5 7B model — no cloud, no data leakage, with persistent memory across sessions. Won 3rd place among 20 teams at a 3-hour hackathon hosted by the AI x LA community in Santa Monica.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">llama.cpp</span>
@@ -220,12 +197,7 @@
           </div>
           <div class="project-label">AI · Multi-Agent · Memory</div>
           <h3><a href="https://github.com/TanmayKhot/memorychat" target="_blank" rel="noopener">MemoryChat</a></h3>
-          <ul class="bullets">
-            <li>Multi-agent chat system with persistent memory across sessions — 6 specialized agents (Coordinator, Privacy Guardian, Retrieval, Conversation, Memory Manager, Analyst)</li>
-            <li>Semantic search over past interactions surfaces relevant memories per query — no hardcoded recall logic</li>
-            <li>Three privacy modes (Normal, Incognito, Pause) give users granular control over what is stored</li>
-            <li>Backed by Qdrant vector DB + Mem0 for persistent memory management via REST API</li>
-          </ul>
+          <p class="project-overview">A multi-agent chat system with a 6-agent architecture that maintains persistent, semantically searchable memory across sessions. Users get three privacy modes to control what is stored, backed by a Qdrant vector database for recall.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">Multi-Agent</span>
@@ -250,11 +222,7 @@
           </div>
           <div class="project-label">Go · Backend · MVC</div>
           <h3><a href="https://github.com/TanmayKhot/pixvault" target="_blank" rel="noopener">PixVault</a></h3>
-          <ul class="bullets">
-            <li>Google Photos-style image gallery app built end-to-end in Go — MVC architecture with multi-format upload (JPG/PNG/GIF), gallery CRUD, and per-gallery privacy toggles</li>
-            <li>Hardened auth: bcrypt password hashing, CSRF protection, and SMTP-based password reset</li>
-            <li>Containerized with Docker Compose for local development and deployment</li>
-          </ul>
+          <p class="project-overview">A Google Photos-style image gallery app built end-to-end in Go, where users can upload images, organise them into galleries, and control who can view each one. Supports account creation, secure login, and password recovery entirely through the app.</p>
           <div class="tech-stack">
             <span class="badge">Go</span>
             <span class="badge">PostgreSQL</span>
@@ -277,12 +245,7 @@
           </div>
           <div class="project-label">Full-Stack · AWS · Web</div>
           <h3>NYUniverse</h3>
-          <ul class="bullets">
-            <li>Web application for NYU students to find compatible roommates and friends based on user preferences</li>
-            <li>AWS Cognito handles user authentication and validation; DynamoDB stores user profiles and preference data</li>
-            <li>AWS Lambda powers the profile recommendation engine matching users based on their preferences</li>
-            <li>Frontend built with HTML, CSS, and JavaScript, hosted on S3</li>
-          </ul>
+          <p class="project-overview">An AWS-based web application for NYU students to find compatible roommates and friends based on user preferences, hosted on S3. Profiles are matched via a recommendation engine and users authenticate securely before accessing the platform.</p>
           <div class="tech-stack">
             <span class="badge">HTML/CSS/JS</span>
             <span class="badge">AWS Cognito</span>
@@ -304,11 +267,7 @@
           </div>
           <div class="project-label">Data Engineering · LLM · Stanford CS336</div>
           <h3><a href="https://github.com/TanmayKhot/Data-engineering-for-LLMs" target="_blank" rel="noopener">Data Engineering for LLMs</a></h3>
-          <ul class="bullets">
-            <li>Pre-training data pipeline built from scratch as part of Stanford CS336 — converts raw Common Crawl HTML to clean text at web scale</li>
-            <li>Multi-stage filtering pipeline: harmful content removal, PII scrubbing, and quality heuristics</li>
-            <li>Corpus deduplication pass to reduce redundancy before feeding into the LM training loop</li>
-          </ul>
+          <p class="project-overview">A pre-training data pipeline built from scratch as part of Stanford CS336, converting raw Common Crawl HTML into clean, deduplicated text at web scale. Includes multi-stage filtering for harmful content, PII scrubbing, quality heuristics, and corpus deduplication.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">Common Crawl</span>
@@ -331,11 +290,7 @@
           </div>
           <div class="project-label">AI · Multi-Agent · Open Source</div>
           <h3><a href="https://github.com/TanmayKhot/openpoke" target="_blank" rel="noopener">OpenPoke</a></h3>
-          <ul class="bullets">
-            <li>Open-source contribution: implemented memory optimization achieving 60–80% reduction in API token usage via LRU caching and smart context selection</li>
-            <li>Built incognito chat mode with dual-layer memory — ephemeral sessions that auto-clear with no data leakage</li>
-            <li>Multi-agent FastAPI backend with Gmail tooling via Composio; includes a full Docker deployment stack with 30+ tests</li>
-          </ul>
+          <p class="project-overview">Open-source contribution to a multi-agent chat platform, implementing a 60–80% reduction in API token usage via LRU caching and an incognito mode with ephemeral, auto-clearing memory. Contributed a full Docker deployment stack with 30+ tests covering health, security, and data persistence.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">FastAPI</span>
@@ -359,11 +314,7 @@
           </div>
           <div class="project-label">LLM · Evaluation · Research</div>
           <h3><a href="https://github.com/TanmayKhot/hard-wordle-eval" target="_blank" rel="noopener">Wordle LLM Evaluation Suite</a></h3>
-          <ul class="bullets">
-            <li>Two adversarial Wordle environments for benchmarking LLM reasoning and constraint-following: Hard mode (strict letter inclusion) and Hurdle variant (multi-step deductive logic)</li>
-            <li>Multi-turn game format with structured XML output parsing tests instruction-following at inference time</li>
-            <li>4-axis scoring: exact match, partial credit, turn efficiency, and format compliance</li>
-          </ul>
+          <p class="project-overview">Two adversarial Wordle environments for benchmarking LLM reasoning — Hard mode enforces strict letter constraints, while the Hurdle variant tests multi-step deductive logic. Uses a multi-turn game format with structured XML output and 4-axis scoring to measure reasoning and instruction-following.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">LLM Eval</span>
@@ -385,11 +336,7 @@
           </div>
           <div class="project-label">Data · Analytics · Full-Stack</div>
           <h3><a href="https://github.com/TanmayKhot/air-quality-analytics" target="_blank" rel="noopener">Air Quality Analytics</a></h3>
-          <ul class="bullets">
-            <li>Full-stack analytics dashboard covering 10 US cities — daily AQI, monthly trends, city comparisons, and pollutant breakdowns across 7 pollutants</li>
-            <li>Apache Spark handles large-scale data processing; OpenAQ API drives real-time ingestion into PostgreSQL via SQLAlchemy</li>
-            <li>HTMX-powered dynamic updates with Chart.js visualizations — no full-page reloads</li>
-          </ul>
+          <p class="project-overview">A full-stack analytics dashboard tracking air quality across 10 US cities, covering daily AQI, monthly trends, city comparisons, and breakdowns across 7 pollutants. Powered by real-time OpenAQ API ingestion, large-scale Spark processing, and HTMX-driven Chart.js visualizations.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">Flask</span>
@@ -413,11 +360,7 @@
           </div>
           <div class="project-label">JavaScript · Browser Extension · Chrome</div>
           <h3><a href="https://github.com/TanmayKhot/Pagemark" target="_blank" rel="noopener">Pagemark</a></h3>
-          <ul class="bullets">
-            <li>Chrome extension that saves and restores exact scroll positions on any webpage, with visual markers rendered directly on the native scrollbar</li>
-            <li>Keyboard shortcut (Ctrl+Shift+M) + floating button; fully local via Chrome Storage API — no tracking, no cloud</li>
-            <li>Built with Manifest V3 architecture; background service worker handles lifecycle and persistence</li>
-          </ul>
+          <p class="project-overview">A Chrome extension that saves and restores exact scroll positions on any webpage, with visual markers rendered directly on the native scrollbar. Entirely local with no tracking — triggered via keyboard shortcut or floating button, built on Manifest V3.</p>
           <div class="tech-stack">
             <span class="badge">JavaScript</span>
             <span class="badge">Chrome Extension</span>
@@ -438,11 +381,7 @@
           </div>
           <div class="project-label">Data Engineering · ETL · Spark</div>
           <h3><a href="https://github.com/TanmayKhot/Grocery-Store-Data-Management-System" target="_blank" rel="noopener">Grocery Store Data Management System</a></h3>
-          <ul class="bullets">
-            <li>ETL pipeline processing millions of transactional records using Apache Spark</li>
-            <li>End-to-end data management: ingestion, transformation, and storage at scale</li>
-            <li>Designed for high-throughput retail data with a fault-tolerant pipeline architecture</li>
-          </ul>
+          <p class="project-overview">An ETL pipeline that processes millions of transactional records for a grocery store dataset using Apache Spark. Handles end-to-end data management from ingestion and transformation to scalable, fault-tolerant storage.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">Apache Spark</span>
@@ -463,11 +402,7 @@
           </div>
           <div class="project-label">NLP · Vector Search · Analytics</div>
           <h3><a href="https://github.com/TanmayKhot/Coronavirus-Observatory-VIsualization-Dashboard" target="_blank" rel="noopener">Coronavirus Observatory &amp; Visualization Dashboard</a></h3>
-          <ul class="bullets">
-            <li>Semantic search over COVID-19 research literature — natural language queries over dense embeddings stored in Milvus</li>
-            <li>Sentence transformer embeddings with metadata (title, abstract, authors) in PostgreSQL; pipeline processes ~1M rows/hour</li>
-            <li>Streamlit UI with Docker-based Milvus + Postgres setup; supports CLI and API inference modes</li>
-          </ul>
+          <p class="project-overview">A semantic search engine over COVID-19 research literature, enabling natural language queries over dense embeddings stored in Milvus. Sentence transformer embeddings are generated at ~1M rows/hour and paired with metadata in PostgreSQL, surfaced through a Streamlit UI.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">Milvus</span>
@@ -491,11 +426,7 @@
           </div>
           <div class="project-label">Deep Learning · Computer Vision · NLP</div>
           <h3><a href="https://github.com/TanmayKhot/Scene-Text-Editing" target="_blank" rel="noopener">Scene Text Editing</a></h3>
-          <ul class="bullets">
-            <li>Undergrad capstone extending STEFANN (CVPR 2020) — a deep learning network for editing text in natural scene images</li>
-            <li>Introduced image disentanglement to separate structure and colour features, enabling style transfer on textured characters beyond the original model's solid-color limitation</li>
-            <li>Colour encoding of the original character is transferred to the generated output, preserving visual fidelity</li>
-          </ul>
+          <p class="project-overview">An undergrad capstone extending STEFANN (CVPR 2020) — a deep learning network for editing text in natural scene images. Introduced image disentanglement to separate structure and colour features, enabling style transfer on textured characters beyond the original model's solid-colour limitation.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">Deep Learning</span>
@@ -518,11 +449,7 @@
           </div>
           <div class="project-label">Computer Vision · Similarity Search · AWS</div>
           <h3><a href="https://github.com/TanmayKhot/Reverse-Image-Search" target="_blank" rel="noopener">Reverse Image Search</a></h3>
-          <ul class="bullets">
-            <li>Face-based reverse image search over 13,000+ LFW images — query by face, retrieve nearest matches</li>
-            <li>ResNet50 baseline embeddings improved with FaceNet (128-dim) for superior face representation; OpenSearch kNN with cosine similarity for retrieval</li>
-            <li>Deployed on AWS EC2 with Deep Learning AMI; embeddings persisted to S3</li>
-          </ul>
+          <p class="project-overview">A face-based reverse image search system over 13,000+ LFW images using FaceNet embeddings and OpenSearch kNN with cosine similarity for retrieval. Deployed on AWS EC2 with embeddings persisted to S3.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">ResNet50</span>
@@ -545,11 +472,7 @@
           </div>
           <div class="project-label">ML Security · PyTorch · Visualization</div>
           <h3><a href="https://github.com/TanmayKhot/Visualizer-for-Adversarial-Attacks" target="_blank" rel="noopener">Visualizer for Adversarial Attacks</a></h3>
-          <ul class="bullets">
-            <li>Interactive tool to probe 6 vision models (ResNet101, VGG16, GoogLeNet, DenseNet, InceptionNet, AlexNet) against adversarial inputs from IBM's ART library</li>
-            <li>Supports 11 attack types — FGSM, PGD, DeepFool, Carlini L2, ZOO, UniversalPerturbation, and more</li>
-            <li>Side-by-side pre/post-attack classification comparison via Streamlit UI — upload any image to run experiments</li>
-          </ul>
+          <p class="project-overview">An interactive Streamlit tool for probing 6 vision models against 11 adversarial attack types from IBM's ART library — FGSM, PGD, DeepFool, Carlini L2, ZOO, and more. Provides side-by-side pre/post-attack classification comparisons so you can upload any image and run vulnerability experiments instantly.</p>
           <div class="tech-stack">
             <span class="badge">Python</span>
             <span class="badge">PyTorch</span>

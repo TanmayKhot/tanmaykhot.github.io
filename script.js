@@ -9,7 +9,7 @@ const themeToggle = document.getElementById('themeToggle');
 const root = document.documentElement;
 
 const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'light') root.classList.add('light');
+if (savedTheme === 'dark') root.classList.remove('light');
 
 themeToggle.addEventListener('click', () => {
   root.classList.toggle('light');
